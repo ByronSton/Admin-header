@@ -1,0 +1,209 @@
+/*This is the general Phone styling section*/
+@media(max-width:820px)
+{
+    body
+{
+  padding: 0;
+  top: 0;
+  margin: 0;
+  background-color: rgba(0, 0, 255, 0.418);
+}
+a 
+{
+  text-decoration: none;
+}
+/*Header Section*/
+sofia-header
+{
+  position: fixed;
+  width: 500px;
+  height: 1.5cm;
+  top: 0;
+  display: block;
+  background-color: #ecf0f1 ;
+}
+header-logo, .lg 
+{
+  position: absolute;
+}
+header-logo
+{
+  left: 0.5cm;
+}
+.lg
+{
+  width: 105px;
+}
+/*Header Section ends*/
+
+
+
+
+/*Footer Section*/
+sofia-footer
+{
+  width: 500px;
+  height: 500px;
+  display: block;
+  background-color: blue;
+  overflow: hidden;
+  
+}
+footer-pic
+{
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-size: cover;
+}
+footer-cont
+{
+  background-image: linear-gradient(to bottom, rgba(0, 0, 255, 0.281), blue);
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding-top: 2cm;
+  padding-left: 1.5cm;
+}
+foot-body
+{
+  padding-right: 3cm;
+  width: 400px;
+  overflow: hidden;
+}
+.foot-logo
+{
+  width: 200px;
+}
+fc 
+{
+  color: aqua;
+  font-size: 90%;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: capitalize;
+}
+fh 
+{
+  position: absolute;
+}
+.follow, .follow2, .fpollow3, .follow4
+{
+  width: 25px;
+  position: absolute;
+}
+.follow
+{
+  right: 0.5cm;
+}
+.follow2 
+{
+  right: 1.5cm;
+}
+.follow3
+{
+  right: 2.5cm;
+  width: 30px;
+  position: absolute;
+}
+.follow4
+{
+  right: 3.5cm;
+}
+fh 
+{
+  position: absolute;
+  width: 417px;
+  overflow: hidden;
+}
+f1h 
+{
+  font-size: 95%;
+  font-family: Georgia;
+  text-transform: uppercase;
+  color: bisque;
+}
+f1
+{
+  position: absolute;
+  display: block;
+  width: 5cm;
+}
+f2 
+{
+  position: absolute;
+  padding-left: 3cm;
+  display: block;
+  width: 5cm;
+}
+f3
+{
+  position: absolute;
+  padding-left: 5.7cm;
+  display: block;
+  width: 5cm;
+}
+f4
+{
+  position: absolute;
+  padding-left: 9.5cm;
+  display: block;
+  width: 5cm;
+}
+
+.clubs, .club
+{
+  width: 70px;
+}
+f1 a, f2 a, f3 a, f4 a
+{
+  font-size: 80%;
+  font-family: 'Times Roman';
+  text-transform: capitalize;
+  color: rgb(196, 255, 209);
+
+}
+header-bar,header-nav
+{
+  display: none;
+}
+header-menu
+{
+  display: block;
+  position: fixed;
+  top: 1.5cm;
+  left: 0;
+  z-index: 5;
+  background-color: #ecf0f18e;
+  width: 400px;
+  height: 600px;
+}
+menu-head
+{
+  padding-left: 0.5cm;
+  padding-top: 0.5cm;
+  display: block;
+  font-family: Georgia;
+  text-transform: capitalize;
+  color: purple;
+  background-color:#ecf0f1a1 ;
+}
+hd-m
+{
+  padding-left: 0.5cm;
+}
+hd-m a
+{
+  position: relative;
+  margin: 0.2cm;
+  font-family: Georgia;
+  text-transform: capitalize;
+  color: blue;
+}
+hb-m a
+{
+  padding-left: 0.2cm;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+}

@@ -1,0 +1,197 @@
+/*This is the general styling section*/
+body
+{
+  padding: 0;
+  top: 0;
+  margin: 0;
+  background-color: rgba(0, 0, 255, 0.418);
+}
+a 
+{
+  text-decoration: none;
+}
+/*Header Section*/
+sofia-header
+{
+  position: fixed;
+  width: 100%;
+  height: 2cm;
+  top: 0;
+  display: block;
+  background-color: #ecf0f1 ;
+}
+header-logo, .lg 
+{
+  position: absolute;
+}
+header-logo
+{
+  left: 1.5cm;
+}
+.lg
+{
+  width: 155px;
+}
+/*Header Section ends*/
+
+
+
+
+
+
+
+
+
+
+
+/*Footer Section*/
+sofia-footer
+{
+  width: 100%;
+  height: 25cm;
+  display: block;
+  background-color: blue;
+  overflow: hidden;
+  
+}
+footer-pic
+{
+  width: 100%;
+  height: 25cm;
+  display: block;
+  background-size: cover;
+}
+footer-cont
+{
+  background-image: linear-gradient(to bottom, rgba(0, 0, 255, 0.459), blue);
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding-top: 9cm;
+  padding-left: 3cm;
+}
+fc 
+{
+  color: aqua;
+  font-size: 120%;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: capitalize;
+}
+foot-body
+{
+  padding-right: 3cm;
+  width: 70%;
+  overflow: hidden;
+}
+fh 
+{
+  position: absolute;
+}
+.follow, .follow2, .fpollow3, .follow4
+{
+  width: 30px;
+  position: absolute;
+}
+.follow
+{
+  right: 9.5cm;
+}
+.follow2 
+{
+  right: 8.5cm;
+}
+.follow3
+{
+  right: 7.5cm;
+  width: 34px;
+  position: absolute;
+}
+.follow4
+{
+  right: 6.5cm;
+}
+f1
+{
+  position: absolute;
+  display: block;
+  width: 5cm;
+}
+f2 
+{
+  position: absolute;
+  padding-left: 5cm;
+  display: block;
+  width: 5cm;
+}
+f3
+{
+  position: absolute;
+  padding-left: 10cm;
+  display: block;
+  width: 5cm;
+}
+f4
+{
+  position: absolute;
+  padding-left: 16cm;
+  display: block;
+  width: 5cm;
+}
+f1h 
+{
+  font-size: 120%;
+  font-family: Georgia;
+  text-transform: uppercase;
+  color: bisque;
+}
+.clubs, .club
+{
+  width: 150px;
+}
+f1 a, f2 a, f3 a, f4 a
+{
+  font-size: 110%;
+  font-family: 'Times Roman';
+  text-transform: capitalize;
+  color: rgb(196, 255, 209);
+}
+header-menu
+{
+  display: none;
+}
+header-bar
+{
+  position: absolute;
+  right: 1cm;
+  top: 0.2cm;
+  color: blue;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: capitalize;
+  cursor: pointer;
+
+}
+header-bar a
+{
+position: relative;
+margin: 0.4cm;
+color: blue;
+}
+header-nav
+{
+  position: absolute;
+  right: 1cm;
+  top: 1.2cm;
+  color: blue;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+header-nav a
+{
+  position: relative;
+margin: 0.4cm;
+}
+
+/*Footer Section Ends*/
+
+
